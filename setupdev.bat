@@ -21,3 +21,5 @@ winget.exe install --id 7zip.7zip --exact --accept-source-agreements --silent --
 winget.exe install --id Microsoft.PowerShell --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id Microsoft.AzureCLI --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id Microsoft.WindowsTerminal.Preview  --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
+### Install Windows Linux Subsystem with Ubuntu 24.04
+wsl --install -d Ubuntu-24.04
