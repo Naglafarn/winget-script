@@ -1,4 +1,4 @@
-### Install Standard Software for Dev Clients
+REM ### Install Standard Software for Dev Clients
 winget.exe install --id IrfanSkiljan.IrfanView --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id IrfanSkiljan.IrfanView.PlugIns --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id WinSCP.WinSCP --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
@@ -24,5 +24,5 @@ winget.exe install --id Microsoft.AzureCLI --exact --accept-source-agreements --
 winget.exe install --id Microsoft.WindowsTerminal.Preview  --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id Joplin.Joplin --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id KeePassXCTeam.KeePassXC --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
-### Install Windows Linux Subsystem with Ubuntu 24.04
+REM ### Install Windows Linux Subsystem with Ubuntu 24.04
 wsl --install -d Ubuntu-24.04
