@@ -4,7 +4,7 @@ winget.exe install --id IrfanSkiljan.IrfanView.PlugIns --exact --accept-source-a
 winget.exe install --id WinSCP.WinSCP --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id WinDirStat.WinDirStat --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id VideoLAN.VLC --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
-winget.exe install --name "Windows Terminal Preview" --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
+winget.exe install --id "Microsoft.WindowsTerminal.Preview" --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id Microsoft.Sysinternals.TCPView --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id Microsoft.Sysinternals.Sysmon --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id Microsoft.Sysinternals.ProcessMonitor --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
