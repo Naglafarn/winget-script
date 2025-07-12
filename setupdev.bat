@@ -24,5 +24,6 @@ winget.exe install --id Microsoft.AzureCLI --exact --accept-source-agreements --
 winget.exe install --id Joplin.Joplin --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id KeePassXCTeam.KeePassXC --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id Mozilla.Firefox --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
-REM ### Install Windows Linux Subsystem with Ubuntu 24.04
+REM ### Install Windows Linux Subsystem with Ubuntu 24.04 and Enable pre-requirements first.
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -NoRestart
 wsl --install -d Ubuntu-24.04
