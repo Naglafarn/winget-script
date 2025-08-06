@@ -11,7 +11,7 @@ winget.exe install --id Microsoft.Sysinternals.ProcessMonitor --exact --accept-s
 winget.exe install --id Microsoft.Sysinternals.ProcessExplorer --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id Microsoft.Sysinternals.Autoruns --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id Microsoft.Sysinternals.BGInfo --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
-winget.exe install --id Microsoft.Sysinternals.Autologon --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
+winget.exe install --id Sysinternals.Autologon --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id ShareX.ShareX --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id Rufus.Rufus --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
 winget.exe install --id PuTTY.PuTTY --exact --accept-source-agreements --silent --disable-interactivity --accept-package-agreements
